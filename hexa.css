@@ -1,0 +1,39 @@
+#contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#contenedorHijo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px black;
+    border-style: groove;
+    border-radius: 10px;
+
+    width: 25%;
+    height: 25%;
+    min-width: 200px;
+    background-color: whitesmoke;
+}
+
+#textoColor {
+    font-size: 3rem;
+}
+
+#botonCambio {
+    cursor: pointer;
+}
+
+#contenedorHija {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 95%;
+    height: 30%;
+}

@@ -1,0 +1,27 @@
+
+#contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#contenedorHijo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+
+    border:5px black;
+    border-style: outset;
+    border-radius: 10px;
+    width: 20%;
+    min-width: 200px;
+    height: 40%;
+
+    gap: 2rem;
+    background-color: whitesmoke;
+}
