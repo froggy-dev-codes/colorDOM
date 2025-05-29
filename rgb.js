@@ -29,7 +29,7 @@ function actualizarColor (rojo, verde, azul){
 }
 
 
-// para actualizar el colo r rojo, verde, azul
+// para actualizar el color rojo, verde, azul
 inputRojo.addEventListener("change", (e)=> {
     rojo = e.target.value;
     textoRojo.textContent = rojo;
