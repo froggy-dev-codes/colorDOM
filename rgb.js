@@ -17,7 +17,7 @@ let azul = inputAzul.value;
 textoRojo.textContent = rojo;
 textoVerde.textContent = verde;
 textoAzul.textContent = azul;
-colorTexto.textContent = `${rojo}, ${verde}, ${azul}`
+colorTexto.textContent = `rgb(${rojo}, ${verde}, ${azul})`
 
 
 
